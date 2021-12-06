@@ -58,7 +58,7 @@ sonarqube {
 property "sonar.exclusions", "**/generated-*/**/*"
     property "sonar.projectKey", "org.sonarqubeJacocoCodeCoverage"
     property "sonar.reportPath" , "${project.buildDir}/jacoco/test.exec"
-	property "sonar.host.url", "http://52.188.64.69/:9000"
+	property "sonar.host.url", "http://52.188.64.69:9000"
     property "sonar.sources", "src/main/java"
     property "sonar.tests", "src/test/java"
 	property "sonar.login", "admin1"
