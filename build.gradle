@@ -54,7 +54,7 @@ jacocoTestReport {
 
 sonarqube {
   properties {
-    property "sonar.projectName","SpringBoot Code Coverage Demo"
+    property "sonar.projectName","springboot-gradle-new"
 property "sonar.exclusions", "**/generated-*/**/*"
     property "sonar.projectKey", "springboot-gradle-new"
     property "sonar.reportPath" , "${project.buildDir}/jacoco/test.exec"
