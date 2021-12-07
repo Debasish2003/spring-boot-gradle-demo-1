@@ -61,7 +61,7 @@ property "sonar.exclusions", "**/generated-*/**/*"
 	property "sonar.host.url", "http://52.188.64.69:9000"
     property "sonar.sources", "src/main/java"
     property "sonar.tests", "src/test/java"
-	property "sonar.login", "de390f32ee1667664a641f65c12b07f020cb2a37"
+	property "sonar.login", "admin1"
 	property "sonar.password", "admin1"
   }
 }
