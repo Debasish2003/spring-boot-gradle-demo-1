@@ -56,7 +56,7 @@ sonarqube {
   properties {
     property "sonar.projectName","springboot-gradle-new"
 property "sonar.exclusions", "**/generated-*/**/*"
-    property "sonar.projectKey", "springboot-gradle-new"
+    property "sonar.projectKey", "springboot-gradle"
     property "sonar.reportPath" , "${project.buildDir}/jacoco/test.exec"
 	property "sonar.host.url", "http://52.188.64.69:9000"
     property "sonar.sources", "src/main/java"
