@@ -54,15 +54,15 @@ jacocoTestReport {
 
 sonarqube {
   properties {
-    property "sonar.projectName","SpringBoot Code Coverage Demo"
+    property "sonar.projectName","springboot-gradle-new"
 property "sonar.exclusions", "**/generated-*/**/*"
-    property "sonar.projectKey", "org.sonarqubeJacocoCodeCoverage"
+    property "sonar.projectKey", "springboot-gradle"
     property "sonar.reportPath" , "${project.buildDir}/jacoco/test.exec"
 	property "sonar.host.url", "http://52.188.64.69:9000"
     property "sonar.sources", "src/main/java"
     property "sonar.tests", "src/test/java"
-	property "sonar.login", "admin1"
-	property "sonar.password", "admin1"
+	property "sonar.login", "394c83fb4d2ffd2a1d9b78b34bcaf2c3e40eb5bd"
+	
   }
 }
 
